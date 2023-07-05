@@ -80,7 +80,7 @@ function index() {
             marginTop: "10px",
           }}
         >
-          {todos.length === 0 && "No Todo"}
+          {todos.length === 0 && "No Todos"}
           {todos.length !== 0 &&
             todos.map((todo) => (
               <div
